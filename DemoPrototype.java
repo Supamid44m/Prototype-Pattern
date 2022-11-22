@@ -12,6 +12,7 @@ public class DemoPrototype {
         Honda clonebike = (Honda) clonemaker.getclone(bike);
         System.out.println("After clone");
         clonebike.showinfo();
+        //test change value
         System.out.println("Test change value");
         clonebike.setName("cbr500");
         clonebike.setSpeed(500);

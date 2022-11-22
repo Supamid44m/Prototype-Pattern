@@ -15,8 +15,9 @@ public class Honda implements Motocycle {
 
     }
 
+    //this method for clone 
     @Override
-    public Motocycle makecopy() {
+    public Motocycle makeclone() {
         Motocycle hondaObjcet = null;
         try {
             hondaObjcet=(Motocycle)super.clone();
